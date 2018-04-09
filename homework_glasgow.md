@@ -62,3 +62,12 @@ UPDATE movies SET show_time = '22:00' WHERE title = 'Guardians of the Galaxy 2';
 ## Extension
 
 1. Research how to delete multiple entries from your table in a single command.
+
+Use a conditional statement like 'or'.
+
+DELETE FROM YourTable
+WHERE (Name = 'Name1' AND Location = 'Location1')
+OR (Name = 'Name2' AND Location = 'Location2')
+OR (Name = 'Name3' AND Location = 'Location3')
+
+Taken from Stack Overflow
